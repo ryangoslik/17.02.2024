@@ -1,0 +1,30 @@
+c++ OOP Konstruktor i destruktor
+
+class Klasa{
+            private:
+            int liczba1;
+            int liczba2;
+
+            public:
+                   Klasa(int l1, int l2){
+
+                   this->liczba1 = l1;
+                   this->liczba2 = l2;
+
+                   } //konstruktor klasy
+
+                   int dodawanie(){
+                   return this-> liczba1 + this-> liczba2;
+                   }
+
+                   |~Klasa(){} //destruktor klasy
+};
+zd 
+utwórz prezentacje min 10 slajdów
+c++ OOP Konstruktor i destruktor
+definicje, przykłady w c++, mogą być screeny
+
+Klasa obiekt = Klasa(10,20);
+obiekt.dodawanie();
+
+"this === Klasa"
