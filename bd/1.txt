@@ -1,0 +1,7 @@
+utworz relacyjny model danych o nazwie programista.
+ baza posiada 2 tabele 
+programista (idp, imie, nazwisko)
+technologie (idt,idp foregin key, nazwa
+w jezyku sql utworz tabele, dodaj do tabeli programista 3 rekordy do drugiej 10rekordow
+zmodyfikuj tabele technologie (alter table dodaj constraint foregin key) aby uszyskac klucz obcy.
+utworz stron einternetowa ktora polaczy sie z baza poprzez mysqli i pobierze wszytskie rekordy dla urzytkownika nr1 (wszytskie czyli technologie przypisane dla użytkowinka
